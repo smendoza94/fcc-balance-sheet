@@ -115,6 +115,38 @@ tr.current {
     font-style: italic;
 }
 
+tr.data {
+    background-image: linear-gradient(to bottom, #e0aa35 1.845rem, #222 1.845rem);
+}
+  
+tr.data th {
+    text-align: left;
+    padding-top: 0.3rem;
+    padding-left: 0.5rem;
+    color:#222
+}
+  
+tr.data th .description {
+    display: block;
+    font-style: italic;
+    font-weight: normal;
+    padding: 1rem 0 0.75rem;
+    margin-right: -13.5rem;
+    color: #ddd;
+}
+
+tr.data td {
+    vertical-align: top;
+    text-align: right;
+    padding: 0.3rem 0.25rem 0;
+    font-weight: bold;
+    color: #222;
+}
+
+tr.data td:last-of-type {
+    padding-right: 0.5rem;
+}
+
 .table-wrap {
     padding: 0 0.75rem 1.5rem 0.75rem;
 }
