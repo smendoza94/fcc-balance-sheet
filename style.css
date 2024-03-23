@@ -1,0 +1,11 @@
+html {
+    /* sites sizing props shrink totals to include padding/margin */
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: monospace, sans-serif, serif;
+    background: #222;
+    color: #ddd;
+}
+
