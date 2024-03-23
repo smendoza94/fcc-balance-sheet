@@ -1,3 +1,16 @@
+span[class~="sr-only"] {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0;
+    margin: -1px;
+}
+
 html {
     /* sites sizing props shrink totals to include padding/margin */
     box-sizing: border-box;
