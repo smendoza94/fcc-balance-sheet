@@ -10,6 +10,10 @@ span[class~="sr-only"] {
     padding: 0;
     margin: -1px;
 }
+  
+span:not(.sr-only) {
+    font-weight: normal;
+}
 
 html {
     /* sites sizing props shrink totals to include padding/margin */
@@ -52,6 +56,28 @@ section {
     max-width: 40rem;
     margin: 0 auto;
     border: 2px solid #e0aa35;
+}
+
+table {
+    /* allow cell borders to collapse into a single border */
+    border-collapse: collapse;
+    border: 0;
+    width: 100%;
+    position: relative;
+    margin-top: 3rem;
+}
+
+table caption {
+    color: #ebbe43;
+    font-size: 1em;
+    font-weight: normal;
+    position: absolute;
+    top: -2.25rem;
+    left: 0.5rem;
+}
+
+.table-wrap {
+    padding: 0 0.75rem 1.5rem 0.75rem;
 }
 
 #years {
