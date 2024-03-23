@@ -76,6 +76,45 @@ table caption {
     left: 0.5rem;
 }
 
+tbody td {
+    width: 100vw;
+    min-width: 4rem;
+    max-width: 4rem;
+}
+
+tbody th {
+    width: calc(100% - 12rem);
+}
+
+
+tr[class="total"] {
+    font-weight: bold;
+    border-bottom: 4px double #e0aa35;
+}
+
+tr[class="total"] th {
+    text-align: left;
+    padding: 0.5rem 0 0.25rem 0.5rem;
+}
+
+tr.total td {
+    text-align: right;
+    padding: 0 0.25rem;
+}
+
+tr.total td:nth-of-type(3) {
+    padding-right: 0.5rem;
+}
+
+tr.total:hover {
+    background: #e0aa35;
+    color: #333;
+}
+
+tr.current {
+    font-style: italic;
+}
+
 .table-wrap {
     padding: 0 0.75rem 1.5rem 0.75rem;
 }
