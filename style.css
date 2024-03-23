@@ -51,7 +51,7 @@ h1 .flex span:last-of-type {
 section {
     max-width: 40rem;
     margin: 0 auto;
-    border: 2px solid #b15c0e;
+    border: 2px solid #e0aa35;
 }
 
 #years {
@@ -60,8 +60,14 @@ section {
     position: sticky;
     z-index: 999;
     top: 0;
-    background: #b15c0e;
-    color: #ddd;
+    background: #e0aa35;
+    color: #333;
     padding: 0.5rem calc(1.25rem + 2px) 0.5rem 0;
     margin: 0 -2px;
+}
+
+#years span[class] {
+    font-weight: bold;
+    width: 4.5rem;
+    text-align: right;
 }
